@@ -1,0 +1,200 @@
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 2.7rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+
+
+/* Title */
+#title {
+    background-color: #ff4c68;
+    text-align: left;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+
+
+/* Navigation Bar */
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.6rem;
+    font-weight: 500;
+}
+
+.nav-item {
+    padding: 0 1rem;
+}
+
+.nav-link {
+    font-size: 1.5rem;
+}
+
+
+
+/* Download buttons */ 
+.download-btn {
+    margin: 9% 5% 5% 0%;
+}
+
+
+
+/* Title image */
+.title-img {
+    /* width: 18%; */
+    transform: rotate(25deg) scale(0.8);
+    position: absolute;
+    right: 25%;
+    bottom: 30px;
+}
+
+
+
+/* Features */
+#features {
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+}
+
+.features-icon {
+    color: #ef8172;
+    transition: color 0.5s;
+    margin-bottom: 1rem;
+}
+
+.features-icon:hover {
+    color: #ff4c68;
+    transition: color 0.5s;
+}
+
+.features-text {
+    color: #8f8f8f;
+    padding: 0 15%;
+}
+
+
+
+/* Testimonial */
+#testimonials {
+    background-color: #ef8172;
+    color: white;
+}
+
+.testimonial-img {
+    border-radius: 100%;
+    width: 12%;
+    margin: 20px
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+
+
+/* Press */
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-img {
+    width: 15%;
+    margin: 20px 40px 50px;
+}
+
+
+
+/* Pricing */
+#pricing {
+    padding: 6%;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+
+
+/* Call to Action */
+#cta {
+    background-color: #ff4c68;
+    padding: 7% 15%;
+}
+
+#cta > h3 {
+    color: white;
+    font-weight: 900;
+    font-size: 3.5rem;
+    width: 80%;
+    margin: 0 auto 0;
+    padding-bottom: 4%;
+}
+
+.cta-btn {
+    margin: 2% 2%;
+}
+
+
+
+/* Footer */
+#footer {
+    padding: 4% 2% 2%;
+}
+
+.social-btn {
+    color: black;
+    transition: color 0.3s;
+    margin: auto 1%;
+    padding-bottom: 2%;
+    transform: scale(.7);
+}
+
+.social-btn:hover {
+    color: #ff4c68;
+    transition: color 0.3s;
+}
+
+#footer > p {
+    color: rgb(158, 158, 158);
+    font-size: 0.9rem;
+}
+
+
+@media (max-width: 1080px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .title-img {
+        position: static;
+        transform: rotate(0) scale(0.8);
+    }
+}
